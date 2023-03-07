@@ -1,0 +1,21 @@
+.NavbarWrapper {
+   z-index: 999;
+   
+    @apply  absolute top-0  font-Poppins text-white font-semibold md:px-12 w-[100%] mx-auto
+}
+
+.NavbarChildWrapper{
+    @apply md:flex justify-between items-center
+}
+
+.NavbarUl {
+     @apply flex justify-center items-center space-x-4
+}
+
+.NavbarLi {
+    @apply p-2 rounded-lg
+}
+
+.NavbarLiActive {
+    @apply bg-slate-50 text-black/60 duration-300 ease-in
+}
