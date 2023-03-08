@@ -1,9 +1,9 @@
 .cardWrapper {
-    @apply w-[310px] h-[516px] 
+    @apply w-[290px] h-[516px] relative 
 }
 
 .cardImgWrapper {
-    @apply w-[248px] h-[248px] rounded-full relative  mx-auto
+    @apply w-[248px] h-[248px] rounded-full  mx-auto relative
 }
 
 .cardImgWrapper img:nth-child(2){
@@ -14,10 +14,26 @@
     @apply bg-[#FDCE77] w-[60px] h-[60px] rounded-full  font-Poppins absolute bottom-6 right-7 ring-4 ring-[black] flex justify-center items-center text-lg  z-20
 }
 
+
 .cardBody {
     background: linear-gradient(179.69deg, rgba(255, 255, 255, 0) -31.53%, #F54748 303.75%);
-    width: 310px;
+    width: 100%;
     height: 368px;
 
     @apply absolute  text-center rounded-3xl bottom-0 font-Poppins
+}
+
+.Rating {
+    @apply w-[156px] mx-auto pt-28 pb-5 flex items-center  font-Poppins font-semibold text-white justify-between
+}
+
+.cardBodyHeadline { 
+    @apply text-[#F65F5F] text-2xl font-Poppins font-semibold my-5
+}
+
+.cardDescription {
+    @apply text-base w-[243px] font-Poppins text-white mx-auto justify-center text-center opacity-80
+}
+.cardBtn {
+    @apply w-[131px] bg-[#F65F5F] text-lg p-1.5 rounded-full absolute bottom-[-13px] left-20
 }

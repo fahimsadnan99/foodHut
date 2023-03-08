@@ -1,0 +1,15 @@
+.whyFoodHutWrapper {
+    /* background : #140E0E; */
+    background:   linear-gradient(to left,#140E0E 60%, #30241A );
+    position: relative;
+    width: 100%;
+
+}
+
+.whyFoodHutIcon {
+    @apply absolute top-16
+}
+
+.whyFoodArrow {
+    @apply absolute top-16 left-[450px]
+}

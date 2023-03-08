@@ -16,9 +16,13 @@ const index = () => {
         been the industry's standard dummy text ever since the 1500s
       </div>
 
-      <div className="left-12 my-10">
-        <div className="grid grid-cols-4">
-          <Card></Card>
+      <div className="left-12 py-10">
+        <div className="wholeCardSection">
+          {Array(4)
+            .fill(0)
+            .map((item, ind) => {
+              return <Card></Card>;
+            })}
         </div>
       </div>
     </div>

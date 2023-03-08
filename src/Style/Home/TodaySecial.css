@@ -1,8 +1,9 @@
 .todayWrapper{
-    background : #140E0E;
+    /* background : #140E0E; */
+  background:   linear-gradient(60deg,#140E0E 70%, #30241A );
     position: relative;
     width: 100%;
-   
+    
 }
 
 .todaysIcon {
@@ -14,7 +15,9 @@
 }
 
 .todayDescription {
-    @apply items-center text-center w-[856px] mx-auto text-lg text-white font-Poppins font-normal my-5
+    @apply items-center text-center w-[856px] mx-auto text-lg text-white font-Poppins font-normal my-5 opacity-80
 }
 
-
+.wholeCardSection {
+    @apply grid space-y-7 lg:space-y-0 md:grid-cols-2 lg:grid-cols-4 w-[92%] mx-auto  pt-5 pb-10
+}
