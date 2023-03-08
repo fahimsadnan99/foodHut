@@ -1,0 +1,20 @@
+.todayWrapper{
+    background : #140E0E;
+    position: relative;
+    width: 100%;
+   
+}
+
+.todaysIcon {
+    @apply absolute top-48
+}
+
+.todayHeadline {
+    @apply items-center text-center  text-white font-Poppins text-[3.51vw] font-bold pt-24
+}
+
+.todayDescription {
+    @apply items-center text-center w-[856px] mx-auto text-lg text-white font-Poppins font-normal my-5
+}
+
+

@@ -1,0 +1,23 @@
+.cardWrapper {
+    @apply w-[310px] h-[516px] 
+}
+
+.cardImgWrapper {
+    @apply w-[248px] h-[248px] rounded-full relative  mx-auto
+}
+
+.cardImgWrapper img:nth-child(2){
+    @apply absolute  top-7 left-6 z-20
+}
+
+.cardPrice {
+    @apply bg-[#FDCE77] w-[60px] h-[60px] rounded-full  font-Poppins absolute bottom-6 right-7 ring-4 ring-[black] flex justify-center items-center text-lg  z-20
+}
+
+.cardBody {
+    background: linear-gradient(179.69deg, rgba(255, 255, 255, 0) -31.53%, #F54748 303.75%);
+    width: 310px;
+    height: 368px;
+
+    @apply absolute  text-center rounded-3xl bottom-0 font-Poppins
+}
