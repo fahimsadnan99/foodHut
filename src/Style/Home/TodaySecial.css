@@ -11,7 +11,7 @@
 }
 
 .todayHeadline {
-    @apply items-center text-center  text-white font-Poppins text-[3.51vw] font-bold pt-24
+    @apply items-center text-center  text-white font-Poppins text-[3.2vw] font-bold pt-24
 }
 
 .todayDescription {

@@ -9,7 +9,7 @@ const Right = () => {
   return (
     <div>
       <div>
-        <div className="text-white font-Poppins w-[452px] font-bold text-[3.56vw] pt-44">
+        <div className="text-white font-Poppins w-[452px] font-bold text-[3.2vw] pt-44 leading-[62px]">
           We are <span className="text-[#F54748]">more</span> than{" "}
           <span className="text-[#FDC55E]">multiple</span> service
         </div>

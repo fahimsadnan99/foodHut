@@ -1,0 +1,26 @@
+.OurMenuWrapper {
+    width: 100%;
+    background:   linear-gradient(-45deg,#140E0E 80%, #30241A );
+    padding-bottom: 50px;
+}
+
+.menuChildWrapper {
+    @apply w-[92%] mx-auto
+}
+
+.menuHeadline {
+    @apply font-Poppins font-bold text-[3.2vw] text-white w-[653px] mx-auto text-center pt-24 leading-[67px]
+}
+
+.menuWrapper {
+    @apply space-x-7 text-center my-7 justify-center items-center
+    font-Poppins
+}
+
+.menuBtn {
+    @apply  rounded-full ring-2 ring-white text-white opacity-60 py-2 px-3
+}
+
+.menuActiveBtn {
+    @apply bg-[#F65F5F] duration-200 ease-out text-black ring-[#F65F5F]
+}
