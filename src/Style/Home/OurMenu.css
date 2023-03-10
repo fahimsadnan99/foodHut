@@ -5,7 +5,7 @@
 }
 
 .menuChildWrapper {
-    @apply w-[92%] mx-auto
+    @apply  w-[92%] mx-auto
 }
 
 .menuHeadline {
@@ -13,7 +13,7 @@
 }
 
 .menuWrapper {
-    @apply space-x-7 text-center my-7 justify-center items-center
+    @apply md:space-x-7 text-center my-7 justify-center items-center 
     font-Poppins
 }
 

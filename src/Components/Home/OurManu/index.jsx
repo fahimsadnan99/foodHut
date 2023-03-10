@@ -32,12 +32,12 @@ const index = () => {
           })}
         </div>
 
-        <div className=" grid grid-cols-4 my-16">
+        <div className="grid grid-cols-4">
           {Array(8)
             .fill(0)
             .map((item, ind) => {
               return (
-                <div className="my-7">
+                <div className="pt-56">
                   <Card></Card>
                 </div>
               );

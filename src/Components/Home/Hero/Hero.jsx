@@ -5,7 +5,7 @@ import Right from "./Right";
 const Hero = () => {
   return (
     <div className="HeroWrapper">
-      <div className="grid md:grid-cols-2 space-x-24">
+      <div className="grid lg:grid-cols-2 space-x-24">
         <Left></Left>
         <Right></Right>
       </div>

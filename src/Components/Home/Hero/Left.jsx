@@ -15,7 +15,7 @@ const Left = () => {
         src={LongArrowIcon}
         alt="longArrow"
       />
-      <img className="ml-[580px] mt-[240px]  absolute" src={OrangeIcon} alt="orangeIcon" />
+      <img className="xs:invisible lg:visible lg:ml-[580px] mt-[240px]  absolute" src={OrangeIcon} alt="orangeIcon" />
       <div className="HeroLeftWrapperChildWrapper">
         {/* //Love icon Component */}
         <div className="HeroLeftLoveCOmponent">
@@ -65,7 +65,7 @@ const Left = () => {
           <button className="HeroDownloadBtn">Download App</button>
 
           <button className="HeroWatchBtn">
-            <span className="w-[52px]">
+            <span className="md:w-[52px]">
               <img className="HeroWatchBtnIcon" src={watchIcon} alt="watch" />
             </span>
             Watch Video

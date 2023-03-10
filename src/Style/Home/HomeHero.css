@@ -12,7 +12,7 @@
 
 .HeroLeftWrapperChildWrapper {
 
-    @apply mt-[215px]  ml-12 
+    @apply mt-[215px] xs:ml-7 md:ml-12 
 
 }
 
@@ -21,32 +21,32 @@
 }
 
 .HeroLeftMainHedline {
-    line-height: 78px;
-    @apply text-[4.24vw] font-Poppins font-extrabold text-white mt-5 ml-7
+  
+    @apply xs:leading-10 sm:leading-[50px] md:leading-[60px] lg:leading-[78px] xs:text-[8vw] sm:text-[7vw] md:text-[4.24vw] font-Poppins font-extrabold text-white mt-5 ml-7
 }
 
 .HeroLeftDescription {
     letter-spacing: -0.01em;
  
-    @apply font-Poppins   text-white font-normal w-[517px] h-[96px] text-[1.75vw] leading-8 opacity-80 my-4
+    @apply font-Poppins   text-white font-normal xs:w-[400px] sm:w-[490px] md:w-[517px] h-[96px] xs:text-[2.7vw] sm:text-[2.5vw] md:text-[1.75vw] leading-8 opacity-80 my-4 xs:pr-10 md:pr-0
 }
 
 .HeroSearchBtn {
-    @apply ring-1  w-[471px] h-[54px] text-lg flex items-center rounded-full
+    @apply ring-1 xs:w-[350px] md:w-[471px] xs:h-[40px] md:h-[54px] text-lg flex items-center rounded-full
 }
 
 .HeroButtonWrapper{
-    @apply flex items-center space-x-8 my-10
+    @apply flex items-center space-x-8 my-10 
 }
 .HeroDownloadBtn {
-    @apply w-[162px] h-[45px] bg-[#F35E5F] text-lg rounded-full
+    @apply xs:w-[162px] h-[45px] bg-[#F35E5F] text-lg rounded-full
 }
 
 .HeroWatchBtn {
-    @apply w-[183px] h-[52px] flex items-center  text-[17px] text-white
+    @apply xs:w-[150px] text-base md:w-[183px] xs:h-[40px] md:h-[52px] flex items-center  md:text-[17px] text-white
 }
 .HeroWatchBtnIcon {
     box-shadow: 2px 5px 20px rgba(255, 0, 0, 0.308);
 
-    @apply rounded-full bg-black p-4 
+    @apply rounded-full bg-black xs:p-2 md:p-4 xs:mr-1
 }

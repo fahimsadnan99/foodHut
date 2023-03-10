@@ -11,13 +11,13 @@
 }
 
 .todayHeadline {
-    @apply items-center text-center  text-white font-Poppins text-[3.2vw] font-bold pt-24
+    @apply items-center text-center  text-white font-Poppins xs:text-[7vw] sm:text-[6vw] md:text-[3.2vw] font-bold pt-24
 }
 
 .todayDescription {
-    @apply items-center text-center w-[856px] mx-auto text-lg text-white font-Poppins font-normal my-5 opacity-80
+    @apply items-center text-center xs:max-w-[500px] xs:text-sm md:w-[856px] mx-auto md:text-lg text-white font-Poppins font-normal my-5 opacity-80
 }
 
 .wholeCardSection {
-    @apply grid space-y-7 lg:space-y-0 md:grid-cols-2 lg:grid-cols-4 w-[92%] mx-auto  pt-5 pb-10
+    @apply grid  lg:space-y-0 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 w-[92%] mx-auto  pt-5 pb-10  justify-center
 }

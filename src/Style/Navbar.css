@@ -1,19 +1,27 @@
 .NavbarWrapper {
-   z-index: 999;
+   z-index: 10;
    
     @apply  absolute top-0  font-Poppins text-white font-semibold md:px-12 w-[100%] mx-auto
 }
 
+.logoWrapper {
+    @apply xs:my-2 md:my-0 mt-3 xs:w-[100px]  md:w-[121px] h-[78px] xs:ml-5 md:ml-0
+}
+
+.toggleBtn {
+    @apply text-white text-2xl absolute right-16 md:invisible self-center xs:top-9
+}
 .NavbarChildWrapper{
     @apply md:flex justify-between items-center
 }
 
 .NavbarUl {
-     @apply flex justify-center items-center space-x-4
+     @apply md:flex justify-center items-center lg:space-x-1  space-y-1 xs:w-full bg-black/60 md:bg-inherit absolute md:static
 }
 
 .NavbarLi {
-    @apply p-2 rounded-lg
+
+    @apply p-2 rounded-lg xs:w-[60%] lg:w-[60%]  xl:w-auto xs:text-sm lg:text-lg xs:ml-5 md:ml-0 font-medium md:font-semibold 
 }
 
 .NavbarLiActive {

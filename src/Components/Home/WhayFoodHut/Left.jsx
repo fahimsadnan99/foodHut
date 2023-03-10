@@ -6,7 +6,7 @@ const Left = () => {
     <div>
       
       <div className='WhyFoodHutShape'>
-          <img src={Shape} alt='Shape' className='w-[500px]  pt-24 mx-auto' />
+          <img src={Shape} alt='Shape' className='xs:max-w-[300px] md:max-w-[500px]  pt-24' />
       </div>
 
 

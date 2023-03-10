@@ -7,9 +7,13 @@
 }
 
 .whyFoodHutIcon {
-    @apply absolute top-16
+    @apply absolute top-16 z-[-1]
 }
 
 .whyFoodArrow {
-    @apply absolute top-16 left-[450px]
+    @apply absolute top-16 left-[450px] xs:invisible lg:visible
+}
+
+.WhyFoodHutShape {
+    @apply flex justify-center items-center mr-36 z-10
 }

@@ -21,7 +21,7 @@ const index = () => {
           {Array(4)
             .fill(0)
             .map((item, ind) => {
-              return <Card></Card>;
+              return <div className="mt-16"><Card></Card></div>;
             })}
         </div>
       </div>
