@@ -9,7 +9,7 @@ const Right = () => {
   return (
     <div>
       <div>
-        <div className="text-white font-Poppins xs:max-w-[400px] max-w-[452px] font-bold xs:text-[6vw] sm:text-[5.5vw] md:text-[3.2vw] md:pt-44 xs:leading-tight md:leading-[62px]">
+        <div className="text-white font-Poppins xs:max-w-[400px] md:max-w-[452px] font-bold xs:text-[6vw] sm:text-[5.5vw] md:text-[3.2vw] md:pt-44 xs:leading-tight md:leading-[62px]">
           We are <span className="text-[#F54748]">more</span> than{" "}
           <span className="text-[#FDC55E]">multiple</span> service
         </div>
@@ -23,7 +23,7 @@ const Right = () => {
         <div className="grid grid-cols-2 text-white font-Poppins text-lg">
 
           {list.map(item =>{
-            return <div className="flex xs:space-x-2 md:space-x-3 my-5"><img className="max-w[26px]" src={item?.src || Booking} alt="img"/><p>{item.text}</p></div>
+            return <div className="flex xs:space-x-2 md:space-x-3 my-5 items-center "><img className={"max-w[26px]"} src={item?.src || Booking} alt="img"/><p>{item.text}</p></div>
           })}
 
         </div>

@@ -15,9 +15,9 @@
 }
 
 .todayDescription {
-    @apply items-center text-center xs:max-w-[500px] xs:text-sm md:w-[856px] mx-auto md:text-lg text-white font-Poppins font-normal my-5 opacity-80
+    @apply items-center text-center xs:max-w-[500px] xs:text-sm md:max-w-[856px] mx-auto md:text-lg text-white font-Poppins font-normal mt-5 opacity-80
 }
 
 .wholeCardSection {
-    @apply grid  lg:space-y-0 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 w-[92%] mx-auto  pt-5 pb-10  justify-center
+    @apply grid  lg:space-y-0 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 w-[92%] mx-auto   pb-10  justify-center
 }

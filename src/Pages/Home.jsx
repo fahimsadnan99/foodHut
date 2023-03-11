@@ -12,8 +12,8 @@ const Home = () => {
 <Hero></Hero>
 <TodaySpecial></TodaySpecial>
 <WhyFoodHut></WhyFoodHut>
-{/* <OurMenu></OurMenu> */}
-{/* <AppDownload/> */}
+<OurMenu></OurMenu>
+<AppDownload/>
 
   </div>;
 };

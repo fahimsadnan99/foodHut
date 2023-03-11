@@ -5,8 +5,8 @@ import Right from "./Right";
 const index = () => {
   return (
     <div className="appDownloadWrapper">
-      <div className="w-[92%] mx-auto">
-        <div className="grid md:grid-cols-2">
+      <div className="xs:w-[95%] md:w-[92%] mx-auto">
+        <div className="grid lg:grid-cols-2">
         <Left></Left>
        <Right></Right>
         </div>
