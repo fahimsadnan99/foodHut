@@ -9,7 +9,7 @@
 }
 
 .toggleBtn {
-    @apply text-white text-2xl absolute right-16 md:invisible self-center xs:top-9
+    @apply text-white text-2xl absolute right-16 md:invisible self-center xs:top-16
 }
 .NavbarChildWrapper{
     @apply md:flex justify-between items-center
