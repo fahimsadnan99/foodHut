@@ -4,8 +4,8 @@ import Card from "../../Common/Card";
 
 const index = () => {
   return (
-    <div className="todayWrapper">
-      <div className="todaysIcon">
+    <div className="todayWrapper" >
+      <div className="todaysIcon" id="Today_special">
         <img src={TodaysIcon} alt="Todays Icon" />
       </div>
       <div className="todayHeadline">

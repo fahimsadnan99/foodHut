@@ -13,9 +13,9 @@ const Navbar = () => {
   return (
     <div className="NavbarWrapper">
       <div className="NavbarChildWrapper">
-        <div className="logoWrapper">
+        <Link className="logoWrapper cursor-pointer" to="#home">
           <img src={Logo} alt="logo" />
-        </div>
+        </Link>
         <button className="toggleBtn" onClick={()=>setMenuShow(!menuShow)}>
          {!menuShow ?<FaBars></FaBars> : <RxCross2></RxCross2> }  
         </button>
@@ -27,12 +27,12 @@ const Navbar = () => {
                 className={` NavbarLi ${activeManu === item && "NavbarLiActive"}`}
                 onClick={() => setActiveManu(item)}
               >
-                <Link to={`#${item.split(" ").join("_")}`}> {item}</Link>
+                <a  href={`#${item.split(" ").join("_")}`}> {item}</a>
+               
               </li>
             );
           })}
-
-          <li></li>
+          
         </ul>
       </div>
     </div>

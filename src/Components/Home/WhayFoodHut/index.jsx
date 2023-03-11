@@ -7,7 +7,7 @@ import Arrow from "../../../assets/ShapeArrow.svg"
 
 const index = () => {
   return (
-    <div className='whyFoodHutWrapper'>
+    <div className='whyFoodHutWrapper' id="Why_FoodHut">
         <img className='whyFoodHutIcon' src={WhyFodHutSideIcon} alt='whyFoodHutIcon'/>
         <img src={Arrow} className='whyFoodArrow' alt="arrow"/>
         <div className='xs:w-[95%] md:w-[92%] mx-auto'>

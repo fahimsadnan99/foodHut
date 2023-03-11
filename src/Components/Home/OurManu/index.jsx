@@ -6,7 +6,7 @@ const menu = ["Ramen", "Breakfast", "Lunch", "Dinner", "Maxican", "Italian", "De
 const index = () => {
   const [menuSelect, setMenuSelect] = useState("Ramen");
   return (
-    <div className="OurMenuWrapper">
+    <div className="OurMenuWrapper" id="Our_Menu">
       <div className="menuChildWrapper">
         <div className="menuHeadline">
           <span className="text-[#F54748]">Menu </span> that
@@ -32,7 +32,7 @@ const index = () => {
           })}
         </div>
 
-        <div className="grid  md:grid-2 lg:grid-cols-3 xl:grid-cols-4 mx-auto">
+        <div className="grid  md:grid-2 lg:grid-cols-3 xl:grid-cols-4 mx-auto" id="Our_Popular_food">
           {Array(8)
             .fill(0)
             .map((item, ind) => {
